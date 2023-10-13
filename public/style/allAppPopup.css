@@ -1,0 +1,48 @@
+.AllAppPopup{
+    position: absolute;
+    top : 10%;
+    right : 1%;
+    right : 10;
+    width: 370px;
+    height: auto;
+    background: #dde6ee;
+    padding:5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.googleProduct{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    place-items: center;
+    gap : 15px;
+}
+
+.googleProduct > div{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background:transparent;
+    border-radius: 15px;
+    gap : 10px;
+    padding: 5px;
+}
+
+.googleProduct > div:hover{
+    background-color: #dffbff;
+    cursor: pointer;
+}
+
+.googleProduct > div > img{
+    width: 50%;
+    height: 50%;
+    object-fit: contain;
+    mix-blend-mode:multiply;
+}
