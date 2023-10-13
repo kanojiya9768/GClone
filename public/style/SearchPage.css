@@ -1,0 +1,163 @@
+.SearchPageHeader{
+    width: 100%;
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.SearchPageHeaderLeftSideSearchInputAndLogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap : 3rem;
+    padding-left: 2rem;
+}
+
+
+.SearchPageHeaderLogo{
+    height: 30px;
+    aspect-ratio: auto 92 / 30;
+    width: 92px;
+}
+
+.Search_Page_All_Options_Listing_Container{
+    width: 50%;
+    height: 50px;
+    /* background: #000; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto 11.2rem;
+}
+
+.Search_Page_All_Options_Listing{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap : 1.3rem;
+}
+
+.Search_Page_All_Options_Listing > a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap : 4px;
+    color : #5f6368;
+    font-size: 14px;
+}
+
+.Search_Page_All_Options_Listing > a > .Option_logo{
+    font-size: 1.1rem;
+}
+.Search_Page_All_Options_Listing_Container > a{
+    color: #5f6368;
+    width: 55px;
+    padding: 5px ;
+    text-align: center;
+    background-color: transparent;
+    transition: .1s;
+}
+.Search_Page_All_Options_Listing_Container > a:hover{
+    background-color: rgb(240, 240, 240);
+    box-shadow: 0px 1px 4px 1px rgb(182, 182, 182);
+}
+
+
+
+
+/* //result css here  */
+.Search_ResultS_Container{
+    width: 50%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: auto 11.2rem;
+    margin-top: 1rem;
+    gap : 2rem;
+    overflow-y: auto;
+    padding-bottom: 2rem;
+}
+
+.Search_ResultS_Container::-webkit-scrollbar{
+    display: none;
+}
+
+.Search_Results_Counts{
+    color: #5f6368;
+    font-size: 14px;
+}
+
+.Search_Results{
+    display: flex;
+    flex-direction: column;
+    gap : 10px;
+}
+
+.Logo_and_Name_Of_result{
+    display: flex;
+    align-items: center;
+    gap : 10px;
+}
+
+.Logo_and_Name_Of_result > .Search_Result_logo {
+    border-radius: 99%;
+    object-fit: cover;
+    cursor: pointer;
+    background-color:transparent;
+    padding: 4px;
+    display: grid;
+    place-items: center;
+    transition: .1s;
+}
+
+.Logo_and_Name_Of_result > .Search_Result_logo:hover{
+    background-color: #eeecec;
+}
+
+.Logo_and_Name_Of_result > .Search_Result_logo >img{
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+}
+
+.result_Name_and_link > p{
+    color: #202124;
+    font-size: 14px;
+}
+
+.result_Name_and_link > a{
+    color : #4d5156;
+    font-size: 12px;
+    margin-top: 3px;
+}
+
+
+.Result_title_and_description{
+    display: flex;
+    flex-direction: column;
+    gap : 10px;
+}
+
+.Result_title_and_description > p:nth-child(1){
+    font-size: 20px;
+    color : #1a0dab;
+}
+.Result_title_and_description > p:nth-child(2){
+    font-size: 15px;
+    width: 95%;
+    color : #4e5257;
+    line-height: 20px;
+}
+
+
+.Horizontal_line{
+    width: 100%;
+    border-bottom: 1px solid #dadce0;
+}
+
+
+
